@@ -115,9 +115,10 @@
   .header {
     width: 1140px;
     height: 62px;
-    margin: auto;
     display: flex;
     background-color: #f3c6bd;
+    margin: auto;
+    margin-left: 130px;
     padding-left: 0;
   }
 
@@ -196,7 +197,6 @@
   .headline {
     position: relative;
     width: 1140px;
-    margin: auto;
     margin-top: 84px;
     display: flex;
     padding-bottom: 77px;
@@ -205,6 +205,7 @@
     position: absolute;
     z-index: 1;
     margin: 0;
+    margin-left: 130px;
   }
   .headline__title {
     width: 754px;
@@ -645,13 +646,14 @@
   font-size: 22px;
   line-height: 28px;
 }
-.audience__color-white {
+.audience__p-user:hover {
+  color: white;
+}
+.audience__user {
   background-color: #ffffff;
 }
-.audience__color-blue {
+.audience__user:hover, .audience__user__p-user:hover {
   background-color: #3141c5;
-}
-.audience__color-blue > .audience__p-user {
   color: white;
 }
 

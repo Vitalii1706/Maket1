@@ -118,17 +118,18 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
+    &:hover {
+      color: white;
+    }
   }
 
-  &__color-white {
+  &__user {
     background-color: #ffffff;
-  }
 
-  &__color-blue {
-    background-color: #3141c5;
-  }
-
-  &__color-blue > &__p-user {
-    color: white;
+    &:hover,
+    &__p-user:hover {
+      background-color: #3141c5;
+      color: white;
+    }
   }
 }

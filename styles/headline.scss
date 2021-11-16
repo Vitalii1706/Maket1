@@ -51,7 +51,6 @@
   .headline {
     position: relative;
     width: 1140px;
-    margin: auto;
     margin-top: 84px;
     display: flex;
     padding-bottom: 77px;
@@ -60,6 +59,7 @@
       position: absolute;
       z-index: 1;
       margin: 0;
+      margin-left: 130px;
     }
 
     &__title {
