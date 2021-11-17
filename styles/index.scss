@@ -2,17 +2,12 @@
 @import 'header.scss';
 @import 'headline.scss';
 @import 'footer.scss';
-@import 'breakpoints.scss';
 @import 'order.scss';
 @import 'audience.scss';
 @import 'variables.scss';
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  overflow-x: scroll;
 }
 
 html {
@@ -26,10 +21,10 @@ html {
   overflow-x: hidden;
 
   @include for-large-up {
-    max-width: 1400px;
-    margin: auto;
-    min-height: 100vh;
     display: inline-flex;
     flex-direction: column;
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: auto;
   }
 }

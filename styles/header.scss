@@ -1,13 +1,13 @@
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $color-pink;
 }
 
 .header {
   display: flex;
   height: 64px;
   width: 100%;
-  background-color: white;
   align-items: center;
+  background-color: $color-white;
   padding-left: 15px;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .logo__name {
-  font-size: 20px;
+  font-size: $font-size-l;
   line-height: 25px;
   font-weight: 700;
 }
@@ -47,22 +47,22 @@
 
 .header__menu-buttom {
   width: 58px;
+  height: 100%;
   border: none;
   border-left: 1px solid #00000026;
-  height: 100%;
   margin-left: auto;
   background: transparent;
 }
 
 .header__menu-buttom-icon {
+  display: inline-block;
   width: 18px;
   height: 13px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
-  display: inline-block;
 }
 
 .navigation-list__item {
-  color: #2b292d;
+  color: $text-color-primary;
   text-decoration: none;
   line-height: 25px;
   font-size: 18px;
@@ -86,12 +86,8 @@
 
 @media screen and (min-width: 400px) {
   .top-section {
-    background-color: #f3c6bd;
+    background-color: $color-pink;
     padding-top: 39px;
-  }
-
-  .header__menu-buttom {
-    display: none;
   }
 
   .navigation {
@@ -102,10 +98,10 @@
   }
 
   .header {
+    display: flex;
     width: 1140px;
     height: 62px;
-    display: flex;
-    background-color: #f3c6bd;
+    background-color: $color-pink;
     margin: auto;
     margin-left: 130px;
     padding-left: 0;
@@ -116,6 +112,7 @@
   }
 
   .header__menu-button {
+    display: none;
     display: block;
   }
 
@@ -129,7 +126,7 @@
     display: block;
     font-size: 18px;
     line-height: 25px;
-    color: #2b292d;
+    color: $text-color-primary;
     opacity: 0.6;
   }
 }
