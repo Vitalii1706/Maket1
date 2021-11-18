@@ -253,8 +253,7 @@
 }
 @media screen and (min-width: 400px) {
   .order__img {
-    margin: 0;
-    padding: 73px 123.59px 72px 224px;
+    margin: 73px 123.59px 72px 224px;
   }
 }
 .order__illustration {
@@ -278,7 +277,7 @@
   text-align: center;
   font-weight: 700;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 48px;
   letter-spacing: -0.25px;
   margin-top: 40px;
 }
