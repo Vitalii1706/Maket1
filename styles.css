@@ -254,7 +254,7 @@
 @media screen and (min-width: 400px) {
   .order__img {
     margin: 0;
-    padding: 73px 121.59px 72px 224px;
+    padding: 73px 123.59px 72px 224px;
   }
 }
 .order__illustration {
@@ -264,7 +264,7 @@
 @media screen and (min-width: 400px) {
   .order__illustration {
     height: 296px;
-    width: 269.41px;
+    width: 269px;
     margin: 0;
   }
 }
@@ -359,6 +359,7 @@
 @media screen and (min-width: 400px) {
   .order__terns {
     margin-top: 10px;
+    margin-bottom: 105px;
   }
 }
 
