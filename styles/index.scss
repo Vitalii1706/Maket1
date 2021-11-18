@@ -1,11 +1,14 @@
+// sass --watch styles/index.scss styles.css
+
+@import 'breakpoints.scss';
+@import 'variables.scss';
 @import 'common.scss';
 @import 'header.scss';
 @import 'headline.scss';
-@import 'footer.scss';
 @import 'order.scss';
 @import 'audience.scss';
-@import 'variables.scss';
-@import 'breakpoints.scss';
+@import 'footer.scss';
+
 * {
   box-sizing: border-box;
 }

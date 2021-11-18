@@ -55,6 +55,8 @@
 
     @include for-large-up {
       width: 555px;
+      margin-top: 0;
+      margin-bottom: 26px;
     }
   }
 
@@ -113,5 +115,8 @@
     font-size: 14px;
     line-height: 22px;
     color: $text-color-grey;
+    @include for-large-up {
+      margin-top: 10px;
+    }
   }
 }
