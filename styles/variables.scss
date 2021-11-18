@@ -23,15 +23,3 @@ $text-color-blue: #3142c6;
 $text-color-blue-button: #3040c4;
 
 $lg: 400px;
-
-@mixin for-large-up {
-  @media screen and (min-width: $lg) {
-    @content;
-  }
-}
-
-@mixin for-large-down {
-  @media screen and (max-width: $lg) {
-    @content;
-  }
-}
