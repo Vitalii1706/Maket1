@@ -32,4 +32,4 @@
 
 ## Vitalii Kitral
 
-### [linkedin](https://Vitalii1706.github.io/Maket1/)
+### [linkedin](www.linkedin.com/in/vitalii-kitral-7a1b29213)
