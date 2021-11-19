@@ -32,4 +32,4 @@
 
 ## Vitalii Kitral
 
-### [linkedin](www.linkedin.com/in/vitalii-kitral-7a1b29213)
+
