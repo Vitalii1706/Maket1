@@ -6,7 +6,7 @@
 
 ---
 
-### [Link](https://Vitalii1706.github.io/Maket1/)
+## [Link](https://Vitalii1706.github.io/Maket1/)
 
 ---
 
