@@ -1,1 +1,3 @@
-https://github.com/Vitalii1706/Maket1/tree/master
+Site layout project.
+
+Mobile version of the project with an extension up to 400px. And a desktop version with an extension of more than 400px.
