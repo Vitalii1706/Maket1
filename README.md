@@ -1,4 +1,4 @@
-# **SLayout Sample Project.**
+# **Layout Sample Project.**
 
 ---
 
