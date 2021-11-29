@@ -84,7 +84,7 @@
   margin-left: 11px;
 }
 
-@media screen and (min-width: 400px) {
+@include for-large-up {
   .top-section {
     background-color: $color-pink;
     padding-top: 39px;
@@ -111,9 +111,8 @@
     display: block;
   }
 
-  .header__menu-button {
+  .header__menu-buttom {
     display: none;
-    display: block;
   }
 
   .logo__img {

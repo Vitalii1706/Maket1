@@ -1,12 +1,14 @@
-# **Site layout project.**
-
-### Mobile version of the project with an extension up to 400px. And a desktop version with an extension of more than 400px.
-
----
+# **SLayout Sample Project.**
 
 ---
 
 ## [Link](https://Vitalii1706.github.io/Maket1/)
+
+---
+
+---
+
+### Layout supports mobile (up-to-400) and desktop (up-to-1360) versions###
 
 ---
 
@@ -31,5 +33,3 @@
 ## _Author_
 
 ## Vitalii Kitral
-
-### [linkedin](www.linkedin.com/in/vitalii-kitral-7a1b29213)

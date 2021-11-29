@@ -122,9 +122,8 @@
     display: block;
   }
 
-  .header__menu-button {
+  .header__menu-buttom {
     display: none;
-    display: block;
   }
 
   .logo__img {
@@ -599,7 +598,7 @@
     flex-direction: column;
     width: 320px;
     height: auto;
-    margin: 0;
+    margin: auto;
   }
 
   .logo-footer {
@@ -662,9 +661,14 @@
 }
 
 html {
+  display: flex;
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
   color: #2b292d;
+}
+
+body {
+  margin: auto;
 }
 
 .page {
@@ -677,7 +681,6 @@ html {
     flex-direction: column;
     max-width: 1400px;
     min-height: 100vh;
-    margin: auto;
   }
 }
 
