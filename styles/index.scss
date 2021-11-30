@@ -27,11 +27,14 @@ body {
 .page {
   width: 100%;
   overflow-x: hidden;
+}
 
-  @include for-large-up {
+@include for-large-up {
+  .page {
     display: inline-flex;
     flex-direction: column;
     max-width: 1400px;
     min-height: 100vh;
+    margin: auto;
   }
 }

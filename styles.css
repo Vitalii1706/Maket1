@@ -675,12 +675,14 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
 @media screen and (min-width: 400px) {
   .page {
     display: inline-flex;
     flex-direction: column;
     max-width: 1400px;
     min-height: 100vh;
+    margin: auto;
   }
 }
 
