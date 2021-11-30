@@ -19,7 +19,7 @@
   &__engage {
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: $font-size-l-Xl;
     line-height: 34px;
     margin: 0;
     padding-bottom: 17px;
@@ -32,14 +32,14 @@
 
   &__understand {
     font-weight: bold;
-    font-size: 40px;
+    font-size: $font-size-XXl-Xl;
     line-height: 40px;
     margin: 0;
 
     @include for-large-up {
       width: 555px;
       height: 112px;
-      font-size: 56px;
+      font-size: $font-size-XXXl-XXL;
       line-height: 56px;
       margin: auto;
       margin-bottom: 30px;
@@ -47,7 +47,7 @@
   }
 
   &__applicants {
-    font-size: 24px;
+    font-size: $font-size-Xl-1;
     line-height: 34px;
     margin-top: 17px;
     margin-bottom: 30px;
@@ -115,7 +115,7 @@
     width: 250px;
     height: 28px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: $font-size-l-Xl;
     line-height: 28px;
     margin: auto;
     &:hover {

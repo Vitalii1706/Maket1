@@ -65,7 +65,7 @@
   color: $text-color-primary;
   text-decoration: none;
   line-height: 25px;
-  font-size: 18px;
+  font-size: $font-size-M-l;
   margin-right: 50px;
 }
 
@@ -124,7 +124,7 @@
 
   .logo__description {
     display: block;
-    font-size: 18px;
+    font-size: $font-size-l-Xl;
     line-height: 25px;
     color: $text-color-primary;
     opacity: 0.6;

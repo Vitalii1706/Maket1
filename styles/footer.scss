@@ -16,7 +16,7 @@
 .footer__description {
   width: 360px;
   line-height: 26px;
-  font-size: 18px;
+  font-size: $font-size-M-l;
   color: $text-color-primary;
   opacity: 60%;
   margin-top: 26px;
@@ -52,7 +52,7 @@
 
   &__title {
     font-weight: bold;
-    font-size: 22px;
+    font-size: $font-size-l-Xl;
     color: $text-color-primary;
     line-height: 28px;
     margin: 0;
@@ -62,9 +62,9 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: $font-size-M-l;
     line-height: 30px;
-    color: #2b292d;
+    color: $text-color-primary;
     opacity: 60%;
     margin-top: 18px;
   }
@@ -79,14 +79,14 @@
 
 .footer__line {
   width: 100%;
-  border-top: 1px solid #2b292d;
+  border-top: 1px solid $text-color-primary;
   opacity: 10%;
   margin: 0;
 }
 
 .terms {
   line-height: 50px;
-  font-size: 14px;
+  font-size: $font-size-s;
   margin-left: 130px;
 
   &__items {
